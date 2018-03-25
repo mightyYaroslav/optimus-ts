@@ -1,0 +1,40 @@
+{
+  "name": "optimus-ts",
+  "version": "1.0.0",
+  "description": "With this library, you can transform your ids to obfuscated integers based on Knuth's integer hash. Port of optimus-js ",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyYaroslav/optimus-ts.git"
+  },
+  "keywords": [
+    "optimus",
+    "hashids",
+    "optimus-js",
+    "knuth",
+    "obfuscation"
+  ],
+  "author": "mighty_yaroslav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mightyYaroslav/optimus-ts/issues"
+  },
+  "homepage": "https://github.com/mightyYaroslav/optimus-ts#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2",
+    "@types/long": "^3.0.32",
+    "@types/node": "^9.6.0"
+  },
+  "dependencies": {
+    "long": "^4.0.0",
+    "tsc": "^1.20150623.0"
+  }
+}
